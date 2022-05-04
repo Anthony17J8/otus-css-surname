@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-* {
-    font-size: 14px;
-    font-family: 'MS Arial', 'Arial', sans-serif;
+@font-face {
+    font-family: Butler;
+    src: url('../fonts/Butler-Light.woff2') format('woff2'),
+    url('../fonts/Butler-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
     font-family: Butler;
-    src: url('../fonts/Butler_Light.otf');
+    src: url('../fonts/Butler.woff2') format('woff2'),
+    url('../fonts/Butler.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }

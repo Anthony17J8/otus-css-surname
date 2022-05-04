@@ -3,40 +3,59 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'Butler', 'MS Arial', 'Arial', sans-serif;
+    line-height: 1.2;
 }
 
-.hero-page {
+body {
+    background-color: #FFFFFF;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+section {
+    height: 100vh;
+    max-height: 1500px;
+    min-height: 700px;
+}
+
+#hero-page {
     position: relative;
-    background-image: url("../img/hero-page-bg.png");
-    background-color: transparent;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 1065px;
-    height: 630px;
-    margin: 135px auto;
+}
+
+
+.hero-page-outer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .hero-page-box {
     background: #FFFFFF;
+    font-size: 5.4rem;
     position: absolute;
-    top: 137px;
-    bottom: 138px;
-    left: 254px;
-    right: 254px;
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 1.5em 0.55em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .hero-page-title {
-    font-family: 'Butler', 'MS Arial', 'Arial', sans-serif;
-    font-weight: 400;
-    font-size: 6.2rem;
+    font-size: 1em;
+    font-weight: 300;
 }
 
 .hero-page-description {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
     font-family: 'Roboto', 'MS Arial', 'Arial', sans-serif;
-    font-size: 1.3rem;
+    font-size: 0.2em;
     font-weight: 700;
-    margin-top: 18px;
+    margin-top: 1.1em;
 }
