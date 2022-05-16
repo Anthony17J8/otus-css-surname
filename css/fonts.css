@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@font-face {
+    font-family: Butler;
+    src: local("Butler-Light"),
+    url('../fonts/Butler-Light.woff2') format('woff2'),
+    url('../fonts/Butler-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
