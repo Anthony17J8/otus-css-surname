@@ -27,6 +27,20 @@ section {
     position: relative;
 }
 
+#template {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: url(../img/maket-202249-ff6d5a.jpeg) no-repeat center;
+    width: 1440px;
+    height: 4559px;
+    display: none;
+    opacity: 0.5;
+    z-index: 2;
+}
+
 .hero-page-bg {
     position: absolute;
     top: 50%;
@@ -43,6 +57,7 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .hero-page-title {
@@ -64,7 +79,7 @@ section {
 .bio-page {
     height: 100%;
     position: absolute;
-    padding: 3.5rem;
+    padding-left: 8.5rem;
 }
 
 .bio-page::after {
@@ -75,8 +90,8 @@ section {
 
 .bio-header {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 20px;
+    bottom: 30px;
     font-family: 'Roboto', 'MS Arial', 'Arial', sans-serif;
     font-weight: 700;
     font-size: 1.1em;
@@ -94,14 +109,15 @@ section {
     float: right;
     max-width: 50%;
     max-height: 100%;
-    padding: 1.5rem;
+    padding: 1.5rem 0 1.5rem 3rem;
+    height: 100%;
 }
 
 .bio-name {
     margin-top: 2em;
     font-size: 5.4em;
     font-weight: 300;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.4em;
 }
 
 .bio-figure {
@@ -115,7 +131,6 @@ section {
     font-weight: 300;
     font-size: 1.1em;
     color: #636363;
-    max-width: 70%;
 }
 
 .bio-skills {
@@ -123,11 +138,11 @@ section {
 }
 
 .bio-figure {
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
 }
 
 .bio-quote {
     font-size: 2em;
-    max-width: 70%;
+    max-width: 65%;
     font-weight: 100;
 }
