@@ -8,3 +8,13 @@
     font-weight: 300;
     font-style: normal;
 }
+
+@font-face {
+    font-family: Butler;
+    src: local("Butler-UltraLight"),
+    local("Butler UltraLight"),
+    url('../fonts/Butler-UltraLight.woff2') format('woff2'),
+    url('../fonts/Butler-UltraLight.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
